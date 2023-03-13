@@ -2,7 +2,7 @@
 
 ## Pilotos
 
-La api de pilotos se puede consumir a través de este url [https://github.com/Algorimtos-y-Programacion-2223-2/api-proyecto/blob/f8e2b420a8f9f5a27463eb29e1df63605822be13/drivers.json](https://github.com/Algorimtos-y-Programacion-2223-2/api-proyecto/blob/f8e2b420a8f9f5a27463eb29e1df63605822be13/drivers.json) y devuelve una lista de objetos compuestos de la siguiente forma:
+La api de pilotos se puede consumir a través de este url [https://raw.githubusercontent.com/Algorimtos-y-Programacion-2223-2/api-proyecto/main/drivers.json](https://raw.githubusercontent.com/Algorimtos-y-Programacion-2223-2/api-proyecto/main/drivers.json) y devuelve una lista de objetos compuestos de la siguiente forma:
 
 ```json
 {
@@ -19,7 +19,7 @@ La api de pilotos se puede consumir a través de este url [https://github.com/Al
 
 ## Constructores
 
-La api de constructores se puede consumir a través de este url [https://github.com/Algorimtos-y-Programacion-2223-2/api-proyecto/blob/f8e2b420a8f9f5a27463eb29e1df63605822be13/constructors.json](https://github.com/Algorimtos-y-Programacion-2223-2/api-proyecto/blob/f8e2b420a8f9f5a27463eb29e1df63605822be13/constructors.json) y devuelve una lista de objetos compuestos de la siguiente forma:
+La api de constructores se puede consumir a través de este url [https://raw.githubusercontent.com/Algorimtos-y-Programacion-2223-2/api-proyecto/main/constructors.json](https://raw.githubusercontent.com/Algorimtos-y-Programacion-2223-2/api-proyecto/main/constructors.json) y devuelve una lista de objetos compuestos de la siguiente forma:
 
 ```json
 {
@@ -31,7 +31,7 @@ La api de constructores se puede consumir a través de este url [https://github.
 
 ## Carreras
 
-La api de carreras se puede consumir a través de este url [https://github.com/Algorimtos-y-Programacion-2223-2/api-proyecto/blob/f8e2b420a8f9f5a27463eb29e1df63605822be13/races.json](https://github.com/Algorimtos-y-Programacion-2223-2/api-proyecto/blob/f8e2b420a8f9f5a27463eb29e1df63605822be13/races.json) y devuelve una lista de objetos compuestos de la siguiente forma:
+La api de carreras se puede consumir a través de este url [https://raw.githubusercontent.com/Algorimtos-y-Programacion-2223-2/api-proyecto/main/races.json](https://raw.githubusercontent.com/Algorimtos-y-Programacion-2223-2/api-proyecto/main/races.json) y devuelve una lista de objetos compuestos de la siguiente forma:
 
 ```json
 {
@@ -46,6 +46,10 @@ La api de carreras se puede consumir a través de este url [https://github.com/A
       "locality": "string",
       "country": "string"
     }
+  },
+  "map": {
+    "vip": ["int:", "int:"],
+    "general": ["int:", "int:"]
   },
   "date": "string:yyyy-mm-dd",
   "restaurants": [
